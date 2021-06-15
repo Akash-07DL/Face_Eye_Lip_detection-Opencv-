@@ -1,4 +1,5 @@
 :GoogleColab:
+
 :Opencv:
 
 # Face_Eye_Lip_detection_using_Opencv-
@@ -23,4 +24,5 @@ Used only Haar Classifier to detect face, eye, and lip.
 2. `< face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_eye.xml")
 lip_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_smile.xml")>`
+
 3.Drawing the Bounding box around the Face, Eye and Lip.
