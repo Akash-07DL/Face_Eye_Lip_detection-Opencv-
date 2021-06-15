@@ -21,6 +21,7 @@ Used only Haar Classifier to detect face, eye, and lip.
 # Steps: 
 
 Upload an image of Human.
+
 `< face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")>`
 
 `<eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_eye.xml")>`
