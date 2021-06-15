@@ -25,4 +25,4 @@ Used only Haar Classifier to detect face, eye, and lip.
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_eye.xml")
 lip_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_smile.xml")>`
 
-3.Drawing the Bounding box around the Face, Eye and Lip.
+ 3.Drawing the Bounding box around the Face, Eye and Lip.
